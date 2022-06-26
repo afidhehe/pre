@@ -1,0 +1,47 @@
+- Appsmith 
+- Python
+- Docker
+- Redis
+- PostGres / MySQL
+- PHP+swoole
+
+
+Frontend:
+- Vercel
+- Netlify
+- GitHub Pages
+- VScode dengan extensi sbb >> LiveServer
+
+Backend:
+- Render. com
+- Heroku
+- Netlify Functions
+
+Database:
+- MongoDB Atlas
+- Firebase
+- PlanetScale (MySQL)
+
+
+
+catetan freecode camp python basic
+>> jalankan IDLE / via linux
+>> pake visual Code, install dan download di windows >> tambah ekstensi python
+>> gunakan gitbash 
+
+>> untuk buka vscode di direktori kerja kita ketik cmd di address bar atau boleh langsung pake cmd arahin ke folder kerjaan kita
+
+ketik code .
+
+nanti langsung muncul di VSCOde
+abis itu open new terminal, pilih didropdown open gitbash
+
+ketik git clone github.com/bobby-didcoding/python-course-for-beginners 
+>> kalo ga berhasil pake ini 
+git clone https://github.com/bobby-didcoding/python-course-for-beginners.git .
+
+atau bisa clone via zip 
+
+https://github.com/bobby-didcoding/python-course-for-beginners/archive/refs/heads/main.zip
+
+
