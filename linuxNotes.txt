@@ -1,0 +1,75 @@
+Tool penting linux >> tree cmd ( biasanya di turunan debian belum otomatis ada / harus diinstall dl )
+>> sudo apt-get install tree
+
+Ping >> untuk check ada atau tidak di check di linux>>  ping --version
+jalanin ping contoh ping -c 100 domain.com
+-c > untuk opsi jumlah paket yg dikirim
+-a > untuk tambahan opsi suara bip
+ping –i 2 –c 7 exampledomain.com  >> i > interval dalam satuan detik
+ping –c 7 –q exampledomain.com >> q > untuk ringkasan report nya
+
+
+
+● type – Indicate how a command name is interpreted
+● which – Display which executable program will be executed
+● help – Get help for shell builtins
+● man – Display a command's manual page
+● apropos – Display a list of appropriate commands
+● info – Display a command's info entry
+● whatis – Display one-line manual page descriptions
+● alias – Create an alias for a command
+
+If you see an interesting file, determine its contents with >> file
+4. If it looks like it might be text, try viewing it with >> less
+5. If we accidentally attempt to view a non-text file and it scrambles the terminal
+window, we can recover by entering the>>  reset      command. 
+install app >> apt install
+liat detil apt show
+sebelum install biasain apt-get update
+
+
+
+check versi Ubuntu di cli >> lsb_release -a
+check versi kernel uname -r
+check informasi terminal tty
+
+
+check ip pake >> ip a, 
+penggunaan ip yang lain bisa ke ip ---help
+
+untuk pake ifconfig harus install net tools
+sudo apt install net-tools
+
+
+Setiap Folder Di Linux Punya Tujuan
+Susunan folder yang kamu lihat diatas dibuat bukan tanpa tujuan yang jelas, folder-folder tersebut sudah didesain untuk tujuannya masing-masing.
+
+/home : untuk menyimpan data/dokumen untuk user yang ada di komputer linux tersebut
+/etc : untuk menyimpan file konfigurasi/setting aplikasi dan service.
+/root : home folder untuk user root/administrator di linux
+/var :untuk menyimpan file yang bersifat dynamic atau berubah ubah seperti log aplikasi dan service
+/boot : berisi file kernel dan bootloader
+/opt : folder untuk meletakan aplikasi portable yang dikelola manual oleh user.
+/bin : berisi file binnary /aplikasi umum yang bisa dipakai oleh setiap user
+/sbin : berisi aplikasi khusus yang hanya bisa digunakan oleh user dengan akses root /administrator.
+/tmp : folder untuk digunakan oleh semua aplikasi yang memerlukan ruang untuk membaut temporary file saat aplikasi bekerja.
+/usr : disinilah file aplikasi linux yang kamu install sebagian besar tersimpan
+
+
+Linux sistem partisi >>
+sda1, 2 dst
+alokasi partisi
+/     untuk root
+Swap space cadangan kalo memory habis, ukurannya 2x RAM
+untuk naro partisi ke sistem file harus pake mount dl gaes.
+
+
+vi atau nano untuk editor text cli
+touch untuk buat file
+rm -rf untuk hapus file/folder yang ada isinya
+mkdir biki folder
+rmdir hapus folder kosong
+cp copy file
+cp -r copy folder
+
+
